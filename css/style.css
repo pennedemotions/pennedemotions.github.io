@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   z-index: 999;
-  width: 100%;
+  width: 85vh;
   height: 100%;
   overflow: visible;
   background: #fff url("../img/preloader.svg") no-repeat center center;
@@ -547,7 +547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 #services .section-description{
-  color: black;
+  color: white;
   font-weight: 700;
 }
 
@@ -585,11 +585,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .service-title a {
-  color:black;
+  color:white;
 }
 
 #services .service-description {
-  color: black;
+  color: white;
   font-weight: 600;
   margin-left: 80px;
   line-height: 24px;
@@ -892,7 +892,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"] {
   background: black;
-  border: 0.5,solid white;
+  border: 0.5,solid black;
   padding: 10px 24px;
   color: #fff;
   font-family: 'Sansita' sans-serif;
@@ -901,6 +901,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #25d8fc;
+}
+#contact .text-center{
+  font-family: 'Sansita', sans-serif;
 }
 
 /*--------------------------------------------------------------
